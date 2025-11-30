@@ -21,7 +21,7 @@ Web3 기반 멀티 게임 플랫폼 - MemeCore
 - **frontend/**: Next.js 클라이언트
 
 
-'''
+```
 morefun-project/
 ├── contracts/                  # [Web3] Smart Contracts
 │   ├── contracts/              # Solidity Files (.sol)
@@ -40,7 +40,7 @@ morefun-project/
     │   ├── pages/              # 라우팅
     │   └── styles/             # Tailwind CSS
     └── package.json
-'''
+```
 
 설치 및 실행 (Installation)
 
