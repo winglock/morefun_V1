@@ -1,5 +1,7 @@
 # MoreFun Project
 
+**git clone https://github.com/winglock/morefun_V1.git**
+
 Web3 기반 멀티 게임 플랫폼 - MemeCore
 
 ## 게임 종류
