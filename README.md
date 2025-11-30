@@ -20,25 +20,27 @@ Web3 기반 멀티 게임 플랫폼 - MemeCore
 - **backend/**: Node.js Socket.io 게임 서버
 - **frontend/**: Next.js 클라이언트
 
-- 📂 프로젝트 구조 (Project Structure)
 
+'''
 morefun-project/
-├── 📁 contracts/        # [Web3] Smart Contracts & Hardhat Config
-│   ├── contracts/       # Solidity Files (.sol)
-│   └── scripts/         # Deploy Scripts
+├── contracts/                  # [Web3] Smart Contracts
+│   ├── contracts/              # Solidity Files (.sol)
+│   └── scripts/                # Deploy Scripts
 │
-├── 📁 backend/          # [Server] Node.js Game Server
+├── backend/                    # [Server] Node.js Game Server
 │   ├── src/
-│   │   ├── games/       # 각 게임별 독립 로직 (bomb, sumo, rektrace...)
-│   │   ├── services/    # 외부 API 연동 (Binance, Web3)
-│   │   └── app.ts       # Entry Point & Socket Setup
+│   │   ├── games/              # 게임별 독립 로직 (bomb, sumo...)
+│   │   ├── services/           # 외부 연동 (Binance, Web3)
+│   │   └── app.ts              # Entry Point
+│   └── package.json
 │
-└── 📁 frontend/         # [Client] Next.js Application
+└── frontend/                   # [Client] Next.js App
     ├── src/
-    │   ├── components/  # 게임별 UI 컴포넌트
-    │   ├── pages/       # Next.js 라우팅
-    │   └── styles/      # Global CSS & Tailwind
-    
+    │   ├── components/         # UI 컴포넌트
+    │   ├── pages/              # 라우팅
+    │   └── styles/             # Tailwind CSS
+    └── package.json
+'''
 
 설치 및 실행 (Installation)
 
