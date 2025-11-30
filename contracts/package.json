@@ -1,0 +1,17 @@
+{
+  "name": "morefun-contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy_vault.ts"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0"
+  }
+}

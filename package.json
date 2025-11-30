@@ -1,0 +1,19 @@
+{
+  "name": "morefun-project",
+  "version": "1.0.0",
+  "description": "Web3 Game Platform - MemeCore",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend dev\"",
+    "build": "yarn workspace contracts build && yarn workspace backend build && yarn workspace frontend build",
+    "test": "yarn workspace contracts test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
